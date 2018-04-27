@@ -1,4 +1,4 @@
-# Predicting the US Immigration Quota
+# Where in the World Will the Immigration Quota Land?
 
 ## Author
 
@@ -6,11 +6,11 @@
 
 ## Files
 
-* Predicting_US_Immigration_Quota.ipyb
+* PredictingUSImmigrationQuota.ipyb
 	* Initial Notebook
 * Regularization.ipynb
-	* Train/test split and Elastic Net work
-* Map_of_US.ipynb
+	* Train/test split, Elastic Net, and Poly Fitting
+* MapofUS.ipynb
 	* Maps of the US turned into a gif
 * Pkl files
 	* Used to compress files
@@ -40,6 +40,10 @@
 * numpy
 * matplotlib
 * seaborn
+* sklearn
+* patsy
+* statsmodels
+* scipy
 
 ## Data Sources
 
