@@ -10,8 +10,6 @@
 	* Initial Notebook
 * Regularization.ipynb
 	* Train/test split, Elastic Net, and Poly Fitting
-* MapofUS.ipynb
-	* Maps of the US turned into a gif
 * Pkl files
 	* Used to compress files
 * GDP_pop.csv
