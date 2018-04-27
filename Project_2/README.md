@@ -14,6 +14,8 @@
 	* Used to compress files
 * GDP_pop.csv
 	* Data pulled from online sources and pasted into a csv
+* Presentation
+	* https://prezi.com/p/-khu3xblen5y/
 
 ## Modeling
 
