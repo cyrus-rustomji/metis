@@ -112,7 +112,7 @@ while True:
 		d['genres'] = genres
 		d['albums'] = albums2
 		print(d)
-		with open('smokepurpp.pkl', 'wb') as handle:
+		with open('wayne.pkl', 'wb') as handle:
 			pickle.dump(d, handle, protocol=pickle.HIGHEST_PROTOCOL)
 		# see album art
 		while True:
