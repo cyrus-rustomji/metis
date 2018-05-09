@@ -112,8 +112,8 @@ while True:
 		d['genres'] = genres
 		d['albums'] = albums2
 		print(d)
-		with open('wayne.pkl', 'wb') as handle:
-			pickle.dump(d, handle, protocol=pickle.HIGHEST_PROTOCOL)
+		# with open('wayne.pkl', 'wb') as handle:
+		# 	pickle.dump(d, handle, protocol=pickle.HIGHEST_PROTOCOL)
 		# see album art
 		while True:
 			songSelection = input('Enter a song number to see the album art associated with it (or set x to exit): ')
