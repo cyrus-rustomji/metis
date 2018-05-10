@@ -1,4 +1,4 @@
-# Where in the World Will the Immigration Quota Land?
+# Predicting the US Immigration Quota
 
 ## Author
 
@@ -6,7 +6,7 @@
 
 ## Files
 
-* PredictingUSImmigrationQuota.ipyb
+* Predicting US Immigration Quota.ipyb
 	* Initial Notebook
 * Regularization.ipynb
 	* Train/test split, Elastic Net, and Poly Fitting
