@@ -23,7 +23,7 @@ spotipyObject = spotipy.Spotify(auth=token)
 
 user = spotipyObject.current_user()
 # print(user)
-
+print(json.dumps(spotipyObject, sort_keys=True,indent=4))
 displayName = user['display_name']
 followers = user['followers']['total']
 print()

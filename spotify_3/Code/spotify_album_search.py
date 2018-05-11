@@ -56,7 +56,7 @@ while True:
 		print()
 		# Get search results
 		searchResults = spotipyObject.search(searchQuery,1,0,'artist')
-		# print(json.dumps(searchResults, sort_keys=True,indent=4))
+		print(json.dumps(searchResults, sort_keys=True,indent=4))
 
 		# artist details
 
