@@ -7,7 +7,6 @@ import spotipy.util as util
 from json.decoder import JSONDecodeError
 from collections import OrderedDict
 import pickle
-from collections import Counter
 
 # Get username from terminal
 username = sys.argv[1]
@@ -35,7 +34,6 @@ recommendation = spotipyObject.recommendation_genre_seeds()
 print(recommendation)
 print()
 print()
-i = 0
 # rec = spotipyObject.recommendations(seed_artists='2YZyLoL8N0Wb9xBt1NhZWg')
 # print(rec)
 
@@ -75,6 +73,9 @@ while True:
 		# commented out line below shows artists picture
 		# webbrowser.open(artist['images'][0]['url'])
 		artistID = artist['id']
+		print(artistID)
+		print(spotipyObject.artist_related_artists(artistID))
+
 
 		# album and track details
 		trackURIs = []
@@ -86,38 +87,37 @@ while True:
 		albumResults = albumResults['items']
 		# print(current_user_playing_track)
 		albums = []
+		song = []
 
 		for item in albumResults:
 			# looping through album
 			no_repeat_albums = item['name']
-			albums.append(no_repeat_albums)
-			# print('ALBUM ' + item['name'])
+			# albums.append(no_repeat_albums)
+			all_albums = 'ALBUM ' + item['name']
+			print(all_albums)
 			albumID = item['id']
 			# print(albums)
-			# albumArt = item['images'][0]['url']
+			albumArt = item['images'][0]['url']
 
 			# Extract track data
 			trackResults = spotipyObject.album_tracks(albumID)
 			trackResults = trackResults['items']
 
 
-			# for item in trackResults:
-			# 	# looping through track results
-			# 	print(str(z) + ':' + item['name'])
-			# 	trackURIs.append(item['uri'])
-			# 	trackArt.append(albumArt)
-				# z += 1
+			for item in trackResults:
+				# looping through track results
+				print(str(z) + ':' + item['name'])
+				trackURIs.append(item['uri'])
+				trackArt.append(albumArt)
+				z += 1
 			albums2 = set(albums)
-
 		d['artist'] = name_of_artist
 		d['spotify_artist_id'] = artistID
 		d['popularity'] = popularity
 		d['followers'] = followers
 		d['genres'] = genres
-		d['count_of_genres'] = Counter(genres)
-		d['total_of_genres'] = len(genres)
 		d['albums'] = albums2
-		print(d)
+		# print(d)
 		# with open('wayne.pkl', 'wb') as handle:
 		# 	pickle.dump(d, handle, protocol=pickle.HIGHEST_PROTOCOL)
 		# see album art

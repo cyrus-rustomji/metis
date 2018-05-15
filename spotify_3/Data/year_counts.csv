@@ -1,0 +1,246 @@
+,year,city,genres
+0,2010,Toronto,canadian hip hop
+1,2010,Toronto,canadian pop
+2,2010,Toronto,hip hop
+3,2010,Toronto,pop rap
+4,2010,Toronto,rap
+5,2010,New York,dance pop
+6,2010,New York,hip pop
+7,2010,New York,pop
+8,2010,New York,pop rap
+9,2010,New York,post-teen pop
+10,2011,Compton,hip hop
+11,2011,Compton,pop rap
+12,2011,Compton,rap
+13,2011,Compton,west coast rap
+14,2004,Chicago,pop
+15,2004,Chicago,pop rap
+16,2004,Chicago,rap
+17,2006,Pittsburgh,hip hop
+18,2006,Pittsburgh,pop rap
+19,2006,Pittsburgh,rap
+20,2006,Pittsburgh,southern hip hop
+21,2006,Pittsburgh,trap music
+22,2012,Atlanta,pop
+23,2012,Atlanta,pop rap
+24,2012,Atlanta,rap
+25,2012,Atlanta,southern hip hop
+26,2012,Atlanta,trap music
+27,1999,New Orleans,hip hop
+28,1999,New Orleans,pop
+29,1999,New Orleans,pop rap
+30,1999,New Orleans,rap
+31,1999,New Orleans,trap music
+32,2015,Atlanta,pop
+33,2015,Atlanta,rap
+34,2015,Atlanta,trap music
+35,2011,Raleigh,pop
+36,2011,Raleigh,pop rap
+37,2011,Raleigh,rap
+38,2011,Raleigh,pop
+39,2011,Raleigh,pop rap
+40,2011,Raleigh,rap
+41,2011,Detroit,detroit hip hop
+42,2011,Detroit,hip hop
+43,2011,Detroit,pop
+44,2011,Detroit,pop rap
+45,2011,Detroit,rap
+46,2011,Detroit,southern hip hop
+47,2011,Detroit,trap music
+48,1996,New York,bulgarian hip hop
+49,1996,New York,east coast hip hop
+50,1996,New York,gangster rap
+51,1996,New York,hip hop
+52,1996,New York,pop rap
+53,1996,New York,rap
+54,1996,New York,southern hip hop
+55,2017,Atlanta,pop
+56,2017,Atlanta,rap
+57,2017,Atlanta,trap music
+58,2017,Philadephia,pop
+59,2017,Philadephia,rap
+60,2017,Philadephia,trap music
+61,2016,Dallas,pop
+62,2016,Dallas,rap
+63,2013,New York,east coast hip hop
+64,2013,New York,hip hop
+65,2013,New York,pop
+66,2013,New York,pop rap
+67,2013,New York,rap
+68,2013,New York,southern hip hop
+69,2013,New York,trap music
+70,2012,Los Angeles,hip hop
+71,2012,Los Angeles,indie r&b
+72,2012,Los Angeles,neo soul
+73,2012,Los Angeles,pop
+74,2012,Los Angeles,pop rap
+75,2012,Los Angeles,r&b
+76,2012,Los Angeles,rap
+77,2015,Mississippi,hip hop
+78,2015,Mississippi,pop
+79,2015,Mississippi,pop rap
+80,2015,Mississippi,rap
+81,2015,Mississippi,southern hip hop
+82,2015,Mississippi,trap music
+83,2012,Chicago,hip hop
+84,2012,Chicago,pop
+85,2012,Chicago,pop rap
+86,2012,Chicago,rap
+87,2009,Oakland,indie pop rap
+88,2017,Miami,pop
+89,2017,Miami,rap
+90,2017,Miami,southern hip hop
+91,2017,Miami,trap music
+92,2017,Atlanta,pop
+93,2017,Atlanta,rap
+94,2017,Atlanta,southern hip hop
+95,2017,Atlanta,trap music
+96,2008,Compton,dance pop
+97,2008,Compton,hip hop
+98,2008,Compton,pop
+99,2008,Compton,pop rap
+100,2008,Compton,rap
+101,2008,Compton,southern hip hop
+102,2008,Compton,trap music
+103,2011,Atlanta,hip hop
+104,2011,Atlanta,pop rap
+105,2011,Atlanta,rap
+106,2017,Miami,rap
+107,2011,Atlanta,dwn trap
+108,2011,Atlanta,gangster rap
+109,2011,Atlanta,hip hop
+110,2011,Atlanta,pop
+111,2011,Atlanta,pop rap
+112,2011,Atlanta,rap
+113,2011,Atlanta,southern hip hop
+114,2011,Atlanta,trap music
+115,2015,Houston,pop
+116,2015,Houston,pop rap
+117,2015,Houston,rap
+118,2015,Houston,trap music
+119,2009,Cleveland,hip hop
+120,2009,Cleveland,pop rap
+121,2009,Cleveland,rap
+122,2014,Beverly Hills,pop rap
+123,2014,Beverly Hills,rap
+124,2018,New York,pop
+125,2011,Pittsburgh,hip hop
+126,2011,Pittsburgh,pop
+127,2011,Pittsburgh,pop rap
+128,2011,Pittsburgh,rap
+129,2011,Pittsburgh,southern hip hop
+130,2011,Pittsburgh,trap music
+131,2005,Atlanta,dirty south rap
+132,2005,Atlanta,hip hop
+133,2005,Atlanta,pop
+134,2005,Atlanta,pop rap
+135,2005,Atlanta,rap
+136,2005,Atlanta,southern hip hop
+137,2005,Atlanta,trap music
+138,2011,Los Angeles,hip hop
+139,2011,Los Angeles,rap
+140,2011,Los Angeles,gangster rap
+141,2011,Los Angeles,hip hop
+142,2011,Los Angeles,pop
+143,2011,Los Angeles,pop rap
+144,2011,Los Angeles,rap
+145,2011,Los Angeles,southern hip hop
+146,2011,Los Angeles,trap music
+147,2011,Los Angeles,underground hip hop
+148,2013,New York,hip hop
+149,2013,New York,pop
+150,2013,New York,pop rap
+151,2013,New York,rap
+152,2013,New York,southern hip hop
+153,2013,New York,trap music
+154,2016,Toronto,canadian hip hop
+155,2016,Toronto,indie r&b
+156,2016,Toronto,pop
+157,2016,Toronto,pop rap
+158,2016,Toronto,r&b
+159,2016,Toronto,rap
+160,2016,Toronto,southern hip hop
+161,2016,Toronto,trap music
+162,2013,New York,hip hop
+163,2013,New York,pop
+164,2013,New York,pop rap
+165,2013,New York,rap
+166,2013,New York,southern hip hop
+167,2013,New York,trap music
+168,2013,New York,underground hip hop
+169,2015,New York,hip hop
+170,2015,New York,pop rap
+171,2015,New York,rap
+172,2015,New York,trap music
+173,2015,New York,underground hip hop
+174,2018,Los Angeles,underground hip hop
+175,2016,Atlanta,indie r&b
+176,2016,Atlanta,pop
+177,2016,Atlanta,r&b
+178,2016,Atlanta,rap
+179,2016,Atlanta,trap music
+180,2013,Philadephia,pop rap
+181,2013,Philadephia,rap
+182,2013,New York,alternative hip hop
+183,2013,New York,dirty south rap
+184,2013,New York,gangster rap
+185,2013,New York,hip hop
+186,2013,New York,pop rap
+187,2013,New York,rap
+188,2013,New York,southern hip hop
+189,2013,New York,trap music
+190,2013,New York,underground hip hop
+191,2017,Miami,canadian hip hop
+192,2017,Miami,pop
+193,2017,Miami,rap
+194,2017,Miami,southern hip hop
+195,2017,Miami,trap music
+196,2017,Miami,underground hip hop
+197,2017,Miami,vapor trap
+198,2017,Toronto,canadian hip hop
+199,2017,Toronto,pop
+200,2017,Toronto,rap
+201,2017,Toronto,trap music
+202,2018,Indonesia,indonesian hip hop
+203,2018,Indonesia,underground hip hop
+204,2018,Indonesia,vapor trap
+205,2016,Los Angeles,escape room
+206,2016,Los Angeles,hip hop
+207,2016,Los Angeles,indie r&b
+208,2016,Los Angeles,la indie
+209,2016,Los Angeles,rap
+210,2018,Memphis,deep trap
+211,2018,Memphis,dwn trap
+212,2018,Memphis,pop rap
+213,2018,Memphis,rap
+214,2018,Memphis,southern hip hop
+215,2018,Memphis,trap music
+216,2016,New York,hip hop
+217,2016,New York,rap
+218,2016,New York,trap music
+219,2016,New York,underground hip hop
+220,2013,Miami,drill
+221,2013,Miami,hip hop
+222,2013,Miami,rap
+223,2013,Miami,trap music
+224,2013,Miami,underground hip hop
+225,2013,Miami,vapor trap
+226,2017,Los Angeles,pop
+227,2017,Los Angeles,pop rap
+228,2017,Los Angeles,rap
+229,2017,Los Angeles,underground hip hop
+230,2011,Los Angeles,dirty south rap
+231,2011,Los Angeles,gangster rap
+232,2011,Los Angeles,hip hop
+233,2011,Los Angeles,pop rap
+234,2011,Los Angeles,rap
+235,2011,Los Angeles,southern hip hop
+236,2011,Los Angeles,trap music
+237,2011,Los Angeles,underground hip hop
+238,2016,Chicago,escape room
+239,2016,Chicago,indie r&b
+240,2018,Memphis,rap
+241,2018,Memphis,southern hip hop
+242,2018,Memphis,trap music
+243,2014,New York,escape room
+244,2014,New York,hip pop
