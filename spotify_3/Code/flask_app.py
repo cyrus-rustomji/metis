@@ -12,15 +12,11 @@ from statsmodels.formula.api import ols
 
 # Read the scientific data on breast cancer survival,
 # Build a LogisticRegression predictor on it
-# patients = pd.read_csv("haberman.data", header=None)
-# patients.columns=['age','year','nodes','survived']
+
 
 patients = pd.read_csv("first_album.csv")
 patients.columns=['plat','followers','popularity']
 
-# patients=patients.replace(2,0)  # The value 2 means death in 5 years, update to more common 0
-# X = patients[['age','year','nodes']]
-# Y = patients['survived']
 
 
 X = patients[['followers','popularity']]
@@ -28,19 +24,11 @@ y = patients['plat']
 PREDICTOR = LogisticRegression().fit(X,y)
 
 
-# y, X = patsy.dmatrices('plat ~ popularity + followers', data=patients, return_type="dataframe")
-# model_1 = sm.OLS(y,X)
-# PREDICTOR = model_1.fit()
-
-# PREDICTOR2 = LinearRegression()
-# PREDICTOR = PREDICTOR2.fit(X,y)
-
-
 
 #---------- URLS AND WEB PAGES -------------#
 
 # Initialize the app
-app = flask.Flask(__name__)
+app = flask.Flask(__name__, static_url_path='/static')
 
 # Homepage
 @app.route("/")
@@ -62,6 +50,7 @@ def score():
     # Get decision score for our example that came with the request
     data = flask.request.json
     x = np.matrix(data["example"])
+    print("-------------%s---------"% data)
     score = PREDICTOR.predict_proba(x)
     # Put the result in a nice dict so we can send it as json
     results = {"score": score[0,1]}

@@ -50,6 +50,8 @@
       <p class="space"></p>
       <div id="bar_chart">
       </div>
+      <div id="resultText"></div>
+
     </div>
 
     <div id="sliders" class="wrapper">
@@ -72,7 +74,7 @@
 
      var current_followers = 5000000;
      var current_popularity = 80;
-     var plat_or_nah = 97.0;
+     var plat = 97.0;
 
      var chart = d3.select("#bar_chart")
                    .append("svg:svg")
@@ -89,24 +91,24 @@
        bar.append("svg:rect")
           .attr("id", "chancebar")
           .attr("class", "bar")
-          .attr("width", chance_scale(plat_or_nah))
+          .attr("width", chance_scale(plat))
           .attr("height", 50);
 
      bar.append("text")
         .attr("id", "percent_text")
         .attr("dy", ".75em")
         .attr("y", 15)
-        .attr("x", chance_scale(plat_or_nah-5))
+        .attr("x", chance_scale(plat-5))
         .attr("text-anchor", "middle")
         .attr("fill", "white")
         .attr("font-size", 20)
-        .text( plat_or_nah.toFixed(1) + "%");
+        .text( plat.toFixed(1) + "%");
 
 
      <!-- FUNCTION TO GET CHANCE FROM YOUR PREDICTOR WITH AJAX AND CHANGE BAR  HEIGHT -->
      function getAndDrawChance(followers, popularity){
-
-       popularity = popularity - 4999980;
+        console.log(followers, popularity)
+       // popularity = popularity;
        $.ajax({
          type: "POST",
          contentType: "application/json; charset=utf-8",
@@ -121,6 +123,13 @@
            d3.select("#percent_text")
              .attr("x", chance_scale(chance-5))
              .text(chance.toFixed(1) + "%");
+             if(chance> 0.5){
+              $("#resultText").text("Yes")
+
+             }else{
+              $("#resultText").text("No")
+
+             }
          },
          error: function (result) {
          }
@@ -134,6 +143,8 @@
        .call(
          d3.slider()
            .value(current_followers)
+           .min(21321)
+           .max(19729716)
            .step(1)
            .axis(true)
            .on("slide", function(evt,value) {
