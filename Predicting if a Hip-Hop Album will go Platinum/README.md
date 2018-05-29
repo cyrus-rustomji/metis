@@ -6,7 +6,7 @@
 
 # Executive Summary
 
-> Coming soon
+> The most important feature in this model was the amount of spotify followers an artist has. The greater the number of spotify followers, the higher likelihood their album will go platinum. The number of genres was the least important feature in this model.
 
 ## Files
 
@@ -25,7 +25,6 @@
 * GDP_pop.csv
 	* Data pulled from online sources and pasted into a csv
 * Presentation
-	* Will come soon
 
 ## Modeling
 
@@ -33,8 +32,8 @@
 
 * Spotify Popularity Index
 * Artist's Spotify followers
-* Sales by Unit
-* Streams for each album
+* Number of Genres
+* Genres used as dummies
 * Platinum album(s) (Y/N)?
 
 ### Tools Used
@@ -61,7 +60,4 @@
 * statsmodels
 * scipy
 
-## Data Sources
-
-* 
 
