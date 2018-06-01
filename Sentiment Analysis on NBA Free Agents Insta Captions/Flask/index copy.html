@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <meta charset='utf-8'>
 <html>
-<head>
 <title>NBA Free Agent Sentiment Analysis</title>
   <style>
         #tooltip {
@@ -44,9 +43,9 @@
 
 
     </style>
-</head>
-<body>
-  <div id="chart_area" class="wrapper">
+
+  <body>
+<div id="chart_area" class="wrapper">
       <h2>Sentiment Analysis on 2018 NBA Free Agents</h2>
       <p class="space"></p>
       <div id="bar_chart">
@@ -56,14 +55,14 @@
   <div id="dropdown" class="wrapper">
     <h2 class="feature">Pick Your Player: <span id="fa"></span></h2>
     <div id="brand_dropdown"><select id="dropdown1"></select></div>
-    <img id="pic" src="static/aaron_gordon.png">
 
   </div>
-
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="http://d3js.org/d3.v3.min.js"></script>
   <script src = "static/dropdown.js"></script>
   <svg width="960" height="500"></svg>
+
+<body>
 
 
     <script>
@@ -74,10 +73,7 @@
           .enter()
           .append("option")
           .attr("value", function(option) { return option.value; })
-          .text(function(option) { return option.value; })
-          .on('change',function(option){
-            $('#pic').attr('src',option.image)
-          });
+          .text(function(option) { return option.value; });
           // populate drop-down
 
         // initial dataset on load
@@ -86,7 +82,7 @@
                     function getAndDrawChance(fa){
 
                       $.ajax({
-                        type: "POST", //do I change this to GET??
+                        type: "POST",
                         contentType: "application/json; charset=utf-8",
                         url: "/score",
                         dataType: "json",
@@ -102,32 +98,16 @@
                       })
                     };
         // dropdown dataset selection
-
-        // Populate pictures and sentiment scores
-
-      //   $('.fa').on('click', function() {
-      //   $(this).css({ opacity: '0.5' })
-      //   var $picture = $(this).attr('id') //need to change id since it references 'pick your player'
-      //     Agent = $picture;
-      //     var Batter2 = document.getElementById('fa')
-      //     Batter2.textContent = Agent
-      //     getAndDrawChance(Agent)
-          
-      //     console.log(Agent)
-      // });
-
-
         var dropDown = d3.select("#dropdown1");
+
 
 
         dropDown.on("change", function() {
 
-          var fa = d3.select("#dropdown1").property("value");
-
-          var new_label = d3.select("#dropdown1").property("value");
-
+          fa = d3.select("#dropdown1").property("value");
+          new_label = d3.select("#dropdown1").property("value");
           d3.select('#fa').text(new_label);
-          getAndDrawChance(fa);
+          getAndDrawChance(fa)
         });
 
 
