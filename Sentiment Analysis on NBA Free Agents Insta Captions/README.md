@@ -19,13 +19,6 @@
 
 ## Modeling
 
-### Features
-
-* Spotify Popularity Index
-* Artist's Spotify followers
-* Number of Genres
-* Genres used as dummies
-* Platinum album(s) (Y/N)?
 
 ### Tools Used
 
