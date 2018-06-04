@@ -30,9 +30,7 @@
        color: black
      }
 
-     .space {
-       margin-bottom: 20 px;
-     }
+
 
      .wrapper {
        width: 900px;
@@ -43,27 +41,30 @@
      }
 
 
+
     </style>
 </head>
 <body>
   <div id="chart_area" class="wrapper">
       <h2>Sentiment Analysis on 2018 NBA Free Agents</h2>
-      <p class="space"></p>
-      <div id="bar_chart">
       </div>
   </div>
 
   <div id="dropdown" class="wrapper">
     <h2 class="feature">Pick Your Player: <span id="fa"></span></h2>
     <div id="brand_dropdown"><select id="dropdown1"></select></div>
-    <br></br>
     <img id="pic" src="static/boogie.png">
-    <br></br>
-    <p>Subjectivity: </p>
+    <table style="width:100%">
+  </table>
+    <p>Subjectivity: 0.1, 0.9</p>
     <p>Expresses personal feelings, views, or beliefs</p>
-    <br> </br>
-    <p>Polarity: </p>
+    <p>Polarity: 0.5, 0.8</p>
     <p>Emotions expressed in a sentence, can be positive, negative or neutral.</p>
+    <p>Positive: 0.8, 0.5</p>
+    <p>Subset of polarity showing how positive captions are</p>
+    <p>Negative: 0.1, 0.7</p>
+    <p>Subset of polarity showing how negative captions are</p>
+    <p>*for scores, 1st number is score in 2018, 2nd is full length of instagram history</p>
 
   </div>
 

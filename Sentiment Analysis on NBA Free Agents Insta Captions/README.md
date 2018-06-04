@@ -4,7 +4,7 @@
 
 * Cyrus Rustomji
 
-# Summary
+## Summary
 
 The problem I am trying to solve is how a NBA GM can retain their top free agents and/or acquire other top free agents. I scraped Instagram using Selenium and Beautiful Soup to capture a sentiment analysis on their captions. The goal of this project is try to predict if a player is happy or sad on their respective teams.
 
