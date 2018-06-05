@@ -4,22 +4,14 @@
 
 * Cyrus Rustomji
 
-## Files
+## Summary
 
-* Predicting US Immigration Quota.ipyb
-	* Initial Notebook
-* Regularization.ipynb
-	* Train/test split, Elastic Net, and Poly Fitting
-* Pkl files
-	* Used to compress files
-* GDP_pop.csv
-	* Data pulled from online sources and pasted into a csv
-* Presentation
-	* https://prezi.com/p/-khu3xblen5y/
+The problem that each potential US immigrant has is wondering what the US population will be the next 5-10 years. This number is dependent on if they and/or their family will gain citizenship or not. The goal of this project was to see what feature(s) are most important in determining this number. To solve this problem, I used regularization methods to determine where the feature importance lies in the data. I used Elastic Net and saw that the US and Global Population were eliminated; however, the US GDP has the highest feature importance as with a coefficient of **+7.4e+4**.
+
 
 ## Modeling
 
-### Variables Used
+### Features Used
 
 * US Population
 * Global Population
@@ -32,7 +24,7 @@
 * Linear Regression
 * OLS Testing
 * Train/test split
-* Elastic Net
+* Lasso, Ridge, and Elastic Net
 
 ## Packages 
 
@@ -44,13 +36,3 @@
 * patsy
 * statsmodels
 * scipy
-
-## Data Sources
-
-* New US Citizens by Year: https://www.dhs.gov/immigration-statistics/yearbook/2016/table1
-* US Real GDP by Year:  http://www.multpl.com/us-gdp-inflation-adjusted/table
-* World Real GDP by Year: http://www.multpl.com/world-real-gdp/table/by-year
-* US Population: https://github.com/aaronpenne/data_visualization/blob/master/population/data/USA_Population_of_States_US_Census_Intercensal_Tables_1917-2017.csv
-* World Population: http://www.multpl.com/world-population/table/by-year
-* US Unemployment Rate: http://www.multpl.com/unemployment/table
-
