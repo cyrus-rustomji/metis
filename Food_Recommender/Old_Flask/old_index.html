@@ -15,6 +15,12 @@
             font-size: 1.2em;
         }
 
+        #dropdown2 {
+            margin-bottom: 10px;
+            margin-right: 35px;
+            padding-right: 0px;
+            font-size: 1.2em;
+        }
 
         h3, h5 {
             margin: 0;
@@ -53,8 +59,12 @@
   </div>
 
   <div id="dropdown" class="wrapper">
-    <h2 class="feature">Pick Your Category: <span id="fa"></span></h2>
-    <div id="brand_dropdown"><select id="dropdown1"></select></div>
+      <h2 class="feature">Pick Your Cuisine: <span id="fa"></span></h2>
+      <div id="brand_dropdown"><select id="dropdown1"></select></div>
+
+  <div id="dropdown" class="wrapper">
+      <h2 class="feature">Pick Your Food within the Cuisine: <span id="fa2"></span></h2>
+      <div id="brand_dropdown"><select id="dropdown2"></select></div>
 
   </div>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -77,7 +87,8 @@
           // populate drop-down
 
         // initial dataset on load
-        var fa = "Jordan";
+        var fa = "Cuisine";
+        var fa2 = "Food";
 
                     function getAndDrawChance(fa){
 
@@ -97,8 +108,28 @@
                         }
                       })
                     };
+
+                    function getAndDrawChance(fa2){
+
+                      $.ajax({
+                        type: "POST",
+                        contentType: "application/json; charset=utf-8",
+                        url: "/score",
+                        dataType: "json",
+                        async: true,
+                        data: JSON.stringify({"example": [fa2]}),
+                        success: function (data) {
+                        var current_color = data["color"];
+                          d3.select("#chancebar")
+                            .style("fill", current_color);
+                        },
+                        error: function (result) {
+                        }
+                      })
+                      };
         // dropdown dataset selection
         var dropDown = d3.select("#dropdown1");
+        var dropDown2 = d3.select("#dropdown2");
 
 
 
@@ -109,6 +140,14 @@
           d3.select('#fa').text(new_label);
           getAndDrawChance(fa)
         });
+
+        dropDown2.on("change", function() {
+
+          fa2 = d3.select("#dropdown2").property("value");
+          new_label = d3.select("#dropdown2").property("value");
+          d3.select('#fa2').text(new_label);
+          getAndDrawChance(fa2)});
+
 
 
 

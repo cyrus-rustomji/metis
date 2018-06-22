@@ -1,6 +1,5 @@
 from flask import Flask
 
-
 #---------- URLS AND WEB PAGES -------------#
 
 # Initialize the app
