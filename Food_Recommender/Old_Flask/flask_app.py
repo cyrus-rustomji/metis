@@ -17,11 +17,7 @@ app = flask.Flask(__name__)
 # bootstrap = Bootstrap(app)
 # moment = Moment(app)
 
-# class NameForm(FlaskForm):
-#     name = StringField('What is your name?', validators=[DataRequired()])
-#     submit = SubmitField('Submit')
-
-@app.route('/', methods=["GET","POST"])
+@app.route('/', methods=['GET','POST'])
 def viz_page():
     """
     Homepage: serve our visualization page, awesome.html
@@ -30,7 +26,7 @@ def viz_page():
         return viz_file.read()
 def score():
     print('hi)')
-    if request.method=="GET":
+    if request.method=='GET':
         # print('i am here')
         # if request.form['recipes'] == 'Do Something':
             # print('here')
@@ -38,7 +34,7 @@ def score():
         return render_template('music.html')
     elif request.method=='POST':
         print('below get')
-        return render_template('index.html')
+        return render_template('music.html')
     else:
         print('good')
         # return("ok")
@@ -61,13 +57,3 @@ def score():
 # (The default website port)
 app.run(host='0.0.0.0')
 app.run(debug=True)
-
-
-# def score():
-#     if request.method=="GET":
-#         return '<form action="/score" method="post"><input type="submit" value="Send" /></form>'
-
-#     elif request.method=='POST':
-#         return render_template('music.html', form=form)
-#     else:
-#         return("ok")
