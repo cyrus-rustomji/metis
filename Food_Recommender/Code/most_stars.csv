@@ -1,0 +1,210 @@
+name,stars,review_count,Category 1,Category 2
+"""Baretto Caffe""",5,187,Italian,Café
+"""New Orleans Seafood & Steakhouse""",5,68,Steakhouse,Seafood
+"""Kozlik's Canadian Mustard""",5,64,Speciality Food,Speciality Food
+"""Veghed""",5,48,Vegan,Vegetarian
+"""Zeal Burgers""",5,41,American,Burgers
+"""Teta's Mediterranean Kitchen & Bakery""",5,38,Middle Eastern,Mediterranean
+"""Wallace Espresso""",5,33,Cafes,Coffee & Tea
+"""Salus Fresh Foods""",5,33,Juice Bars & Smoothies,Salad
+"""Peter's No Frills""",5,32,Seafood,Bakeries
+"""Bar Ape""",5,31,Ice Cream & Frozen Yogurt ,Café
+"""Barista & Chef""",5,29,Mediterranean,Middle Eastern
+"""Volta Espresso""",5,24,Coffee & Tea,Café
+"""Bar Sybanne""",5,21,Mediterranean,Middle Eastern
+"""Oakwood Espresso""",5,20,Coffee & Tea,Café
+"""T-Sushi""",5,20,Sushi,Japanese
+"""Arabesque Middle Eastern Foods""",5,20,Middle Eastern,Mediterranean
+"""Gloria Espresso Bar & Cafe""",5,19,Coffee & Tea,Café
+"""Amore Fine Foods""",5,18,Sandwiches,Salad
+"""Village Juicery""",5,18,Juice Bars & Smoothies,Salad
+"""Pasta Pantry""",5,17,Italian,Speciality Food
+"""La Sala Restaurant""",5,17,Italian,Speciality Food
+"""East of York Gourmet Food""",5,17,Sandwiches,Indian
+"""Rick's Cafe""",5,16,Sandwiches,Café
+"""COCO Crafted Organic Chocolate""",5,16,Chocolatiers & Shops,Speciality Food
+"""M&J's Eastside Deli""",5,15,Breakfast & Brunch,Sandwiches
+"""Grinning Face Non-Dairy Gelato""",5,15,Ice Cream & Frozen Yogurt ,Desserts
+"""Avoca Choclatier""",5,14,Chocolatiers & Shops,Ice Cream & Frozen Yogurt 
+"""The Golden Apple Confectionery""",5,13,Chocolatiers & Shops,Desserts
+"""Cock-A-Doodle-Doo""",5,12,Bakeries,Gluten-Free
+"""Juice Box""",5,12,Juice Bars & Smoothies,Speciality Food
+"""Close To The Bone""",5,11,Sandwiches,Deli
+"""Custodio's Meats and Eats""",5,11,Steakhouse,Butcher
+"""Fahrenheit Coffee""",5,11,Coffee & Tea,Café
+"""Uncle Mikey's""",5,11,Canadian,Korean
+"""Shamone""",5,11,Bars,Bars
+"""Abyssinia Ethiopian Restaurant""",5,11,Ethiopian,Vegan
+"""De La Mer""",5,11,Seafood,Speciality Food
+"""Patricia's Cake Creations""",5,10,Bakeries,Café
+"""Tesla Cafe""",5,10,American,Burgers
+"""The Merseyside""",5,10,Sandwiches,Coffee & Tea
+"""Livelihood Cafe""",5,10,Middle Eastern,Coffee & Tea
+"""Cobs Bread""",5,10,Bakeries,Speciality Food
+"""York Station Bar""",5,10,Bars,Bars
+"""Chocolate by Wickerhead""",5,10,Chocolatiers & Shops,Speciality Food
+"""St Clair Ice Cream Factory Outlet""",5,10,Ice Cream & Frozen Yogurt ,Desserts
+"""Patisserie Royale""",5,10,Middle Eastern,Bakeries
+"""Rui's  BBQ""",5,9,Portuguese,BBQ
+"""JJ Bean""",5,9,Sandwiches,Coffee & Tea
+"""Golden Gecko Coffee""",5,9,Coffee & Tea,Café
+"""The Coffee Bouquets""",5,9,Coffee & Tea,Café
+"""Taste Seduction""",5,9,Caribbean,Speciality Food
+"""D' License to Grill""",5,9,Indian,Speciality Food
+"""Grace Meats & Fine Foods""",5,9,Meat Shop,Speciality Food
+"""Egg Sunrise Grill""",5,9,American,Diners
+"""Sweet Flour Bake Shop""",5,8,Bakeries,Desserts
+"""Hd Cake & Pastry House""",5,8,Bakeries,Desserts
+"""Baked on Brock""",5,8,Ice Cream & Frozen Yogurt ,Desserts
+"""Rose's Halal Kitchen""",5,8,Caribbean,Speciality Food
+"""Stasis Preserves""",5,8,Organic Stores,Speciality Food
+"""Pestacio""",5,8,Speciality Food,Speciality Food
+"""Gaia Natural Foods""",5,8,Indian,Speciality Food
+"""Amico Sushi & Grill""",5,8,Japanese,Sushi
+"""Kouzies""",5,7,Breakfast & Brunch,Italian
+"""Shalom Ethopian Restaurant""",5,7,Ethiopian,Speciality Food
+"""Ethiopia vegan  Restaurant""",5,7,Ethiopian,Vegan
+"""Savour Toronto""",5,7,Canadian,Speciality Food
+"""Sweet Cocoa""",5,7,Bakeries,Café
+"""Stoke Stack Barbecue""",5,7,BBQ,Speciality Food
+"""MoTo Coffee and Snack Bar""",5,7,Coffee & Tea,Italian
+"""Seesaw Cafe""",5,7,Bakeries,Café
+"""Mama's Authentic Caribbean Restaurant""",5,7,Caribbean,Speciality Food
+"""Roll & Roll""",5,7,Japanese,Speciality Food
+"""Rawlicious""",5,7,Vegan,Vegetarian
+"""Conspiracy Pizza""",5,7,Pizza,Pizza
+"""Megumi Sushi""",5,7,Sushi,Japanese
+"""Debe's Roti & Doubles""",5,6,Caribbean,Café
+"""Bailey's Cafe""",5,6,Breakfast & Brunch,Coffee & Tea
+"""Zaza Espresso Bar""",5,6,Coffee & Tea,Bakeries
+"""Sticks N Scones""",5,6,Bakeries,Desserts
+"""Better than Yia Yia's""",5,6,Mediterranean,Greek
+"""McDonald's""",5,6,American,Burgers
+"""Sullivan & Bleeker Baking""",5,6,Bakeries,Desserts
+"""Noble Coffee""",5,6,Sandwiches,Coffee & Tea
+"""The Pantry""",5,6,Cheese,Speciality Food
+"""My Little Dumplings""",5,6,Speciality Food,Speciality Food
+"""Osler Fish Terminal""",5,6,Seafood,Speciality Food
+"""Beau Lieu Bistro""",5,6,French,Speciality Food
+"""Village Meat Products & Deli""",5,6,Deli,Speciality Food
+"""Taj Restaurant""",5,6,Mediterranean,Russian
+"""Burro Burrito""",5,6,Mexican,Mexican
+"""Sushi Caf√© Myoung Dong Soon To Fu Korea Restaurant""",5,6,Korean,Korean
+"""Koricancha Restaurant""",5,6,Latin,Peruvian
+"""It'z A Wrap""",5,6,Sandwiches,Sandwiches
+"""Valentino's Smokin Salmon""",5,6,Seafood,Speciality Food
+"""Global Cheese""",5,6,Cheese,Speciality Food
+"""Ellas Meat Market""",5,6,Meat Shop,Speciality Food
+"""Krazy Corean""",5,5,Korean,Asian Fusion
+"""Street Feast Grill""",5,5,Breakfast & Brunch,BBQ
+"""Sugar Loaf""",5,5,Breakfast & Brunch,Café
+"""Trinity Square Cafe""",5,5,Café,Café
+"""Old's Cool General Store""",5,5,Ice Cream & Frozen Yogurt ,Desserts
+"""Nguy√™n Huong""",5,5,Vietnamese,Sandwiches
+"""Pancho's Bakery""",5,5,Bakeries,Café
+"""Bespoke Butcher""",5,5,Cheese,Butcher
+"""Sweet Addictions Candy""",5,5,Candy,Speciality Food
+"""2nd Nature Bakery and Cafe""",5,5,Bakeries,Café
+"""Greek Street""",5,5,Greek,Greek
+"""St Patricks Mini Mart""",5,5,Ice Cream & Frozen Yogurt ,Grocery
+"""The Healthy Road""",5,5,Grocery,Grocery
+"""Debu's Nouvelle Indian Cuisine""",5,5,Indian,Indian
+"""Kibo Sushi""",5,5,Sushi,Japanese
+"""Revitasize""",5,5,Juice Bars & Smoothies,Vegan
+"""Marron Bistro Moderne""",5,5,Kosher,Kosher
+"""Macelleria Atlas Butcher Shop""",5,5,Meat,Speciality Food
+"""Toro Wine bar""",5,5,Wine,Tapas
+"""Raise the Root Organic Market""",5,5,Organic Stores,Speciality Food
+"""Camerini Ristorante""",5,5,Italian,Italian
+"""Park Hyatt Toronto Kosher Annona Restaurant""",5,5,Kosher,Kosher
+"""Village Pizza""",5,5,Pizza,Pizza
+"""Waynak Modern Halal Eatery""",5,5,Pizza,Italian
+"""Chicken Place""",5,5,Middle Eastern,Lebanese
+"""Royale's Luncheonette""",5,5,Sandwiches,Salad
+"""Surati Sweet Mart""",5,5,Speciality Food,Speciality Food
+"""Corks & Platters""",5,5,Wine,Tapas
+"""Silver Spoon""",5,4,American,American
+"""Cob's Bread""",5,4,Bakeries,Bakeries
+"""Nord Bistro""",5,4,Breakfast & Brunch,Canadian
+"""Caribbean Sunset Restaurant and Bar""",5,4,Carribean,Carribean
+"""Sushi Making For The Soul""",5,4,Sushi,Speciality Food
+"""Lindt Chocolate Shop - Toronto Eaton Centre""",5,4,Chocolatiers & Shops,Candy
+"""Starbucks""",5,4,Coffee & Tea,Desserts
+"""Tealish""",5,4,Coffee & Tea,Coffee & Tea
+"""Lale Bakery & Caffe""",5,4,Coffee & Tea,Bakeries
+"""Patisserie Saint Honore""",5,4,Bakeries,Bakeries
+"""LCBO""",5,4,Beer,Wine
+"""Starbucks""",5,4,Coffee & Tea,Desserts
+"""Madame Gateaux""",5,4,Desserts,Desserts
+"""Touch Down Foods""",5,4,Desserts,Speciality Food
+"""St-Clair Icecream""",5,4,Ice Cream & Frozen Yogurt ,Desserts
+"""Di Liso's Fine Meats""",5,4,Meat Shop,Speciality Food
+"""Kernels Popcorn""",5,4,Speciality Food,Speciality Food
+"""FruiteaO""",5,4,Juice Bars & Smoothies,Desserts
+"""Lily Fruits Market""",5,4,Juice Bars & Smoothies,Grocery
+"""Baskin Robbins""",5,4,Ice Cream & Frozen Yogurt ,Desserts
+"""De Frantic Monkey Cafe Bar""",5,4,Juice Bars & Smoothies,Coffee & Tea
+"""Witteveen Meats""",5,4,Meat Shop,Speciality Food
+"""Pita Land""",5,4,Middle Eastern,Sandwiches
+"""The Mutt""",5,4,American,Burgers
+"""Dumpling King""",5,4,Chinese,Noodles
+"""Famous Pizza Town""",5,4,Pizza,Pizza
+"""N≈çmads Restobar""",5,4,Canadian,Bar
+"""Eupin Chinese Takeout""",5,4,Chinese,Chinese
+"""Caribbean Nights""",5,4,Carribean,Chinese
+"""Bebo's Authentic Grill""",5,4,European,European
+"""Hot Pot Cafe""",5,4,Middle Eastern,Mediterranean
+"""Ontario Fresh & Tasty""",5,4,Deli,Sandwiches
+"""Continental Grill House""",5,4,Middle Eastern,Mediterranean
+"""Caspi Restaurant""",5,4,Russian,Ukrainian
+"""The Dock On Queen""",5,4,Sandwiches,Café
+"""Wraps On The Go""",5,4,Sandwiches,Coffee & Tea
+"""Alimentari Italian Grocery""",5,4,Italian,Speciality Food
+"""Rube's Rice""",5,4,American,Speciality Food
+"""Gastronomix""",5,4,Speciality Food,Speciality Food
+"""Oak Island""",5,4,American,Speciality Food
+"""Souppe Shoppe""",5,4,Soup,Soup
+"""Pho Saigon St""",5,4,Vietnamese,Vietnamese
+"""Shawarma Q""",5,3,Middle Eastern,Mediterranean
+"""Wish A Cake""",5,3,Bakeries,Desserts
+"""Gouter""",5,3,Chocolatiers & Shops,Coffee & Tea
+"""Fine Wine Reserve""",5,3,Beer,Wine
+"""New World Wine Tours""",5,3,Beer,Wine
+"""The Flying Elephant Bakery""",5,3,Bakeries,Desserts
+"""Rococoa""",5,3,Chocolatiers & Shops,Ice Cream & Frozen Yogurt 
+"""Nugget Pizza and Wings""",5,3,American,Pizza
+"""Magic Oven""",5,3,Sandwiches,Indian
+"""Christine Cs Shortbread""",5,3,Bakeries,Bakeries
+"""Golden Bakeshop""",5,3,Bakeries,Bakeries
+"""Coffee Crate""",5,3,Coffee & Tea,Café
+"""Coffee Galore""",5,3,Coffee & Tea,Café
+"""Hale Coffee""",5,3,Coffee & Tea,Café
+"""Booster Juice""",5,3,Juice Bars & Smoothies,Juice Bars & Smoothies
+"""Cuisine of India""",5,3,Indian,Indian
+"""Senisi Fine Foods""",5,3,Seafood,Ice Cream & Frozen Yogurt 
+"""Galaxy T&T""",5,3,Vietnamese,Sandwiches
+"""Rosedale's Finest""",5,3,Coffee & Tea,Desserts
+"""Baskin Robbins""",5,3,Ice Cream & Frozen Yogurt ,Ice Cream & Frozen Yogurt 
+"""Antioch Kitchen""",5,3,Middle Eastern,Mediterranean
+"""Caprae & Suidae""",5,3,Meat Shop,Speciality Food
+"""Superior Sausage Company""",5,3,Meat Shop,Speciality Food
+"""The Windmill Restaurant""",5,3,Middle Eastern,Mediterranean
+"""Horizons Lounge""",5,3,Café,Bar
+"""Loch & Quay""",5,3,Juice Bars & Smoothies,Bar
+"""Good Cheese""",5,3,Cheese,Cheese
+"""Jal Gua Cafe""",5,3,Breakfast & Brunch,Organic Stores
+"""Xamar Weyne""",5,3,African,African
+"""Brasileirissimo Steak House""",5,3,Brazilian,Portuguese
+"""Sunnyside Grill""",5,3,Breakfast & Brunch,Breakfast & Brunch
+"""Starbucks""",5,3,Coffee & Tea,Café
+"""Popeyes Louisiana Kitchen""",5,3,American,Wings
+"""Brando's Fried Chicken""",5,3,American,Wings
+"""Lupara Kitchen Table""",5,3,Italian,Italian
+"""Cactus Sandwiches & BBQ chicken""",5,3,Mediterranean,BBQ
+"""Sicily Pizza""",5,3,Pizza,Pizza
+"""Orca  The Sandwich Shoppe""",5,3,Sandwiches,Salad
+"""Cleo""",5,3,Middle Eastern,Vegan
+"""Pomarosa Coffee Shop & Kitchen""",5,3,Sandwiches,Coffee & Tea
+"""Pita Break""",5,3,Middle Eastern,Mediterranean
+"""Caribbean Bistro""",5,3,Seafood,Carribean
+"""John's Sushi Bistro""",5,3,Sushi,Sushi
